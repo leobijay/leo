@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Bijay">
+  <title>Contact Bijay</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0078d7;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      margin: 0 auto;
+      max-width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    form button {
+      background: #0078d7;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #005bb5;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Bijay</h1>
+  </header>
+
+  <section>
+    <h2>Send Us a Message</h2>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
+      
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Bijay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
