@@ -1,0 +1,11 @@
+<section id="faq" style="padding: 50px; background: white; text-align: center;">
+  <h2>Frequently Asked Questions</h2>
+  <div>
+    <h3>What services do you provide?</h3>
+    <p>We provide web development, design, and consulting services tailored to your needs.</p>
+  </div>
+  <div>
+    <h3>How do I contact you?</h3>
+    <p>You can reach us at <a href="mailto:bijay@technologist.com">bijay@technologist.com</a>.</p>
+  </div>
+</section>
