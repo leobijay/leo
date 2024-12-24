@@ -1,0 +1,17 @@
+<section id="services" style="padding: 50px; background: white; text-align: center;">
+  <h2>Our Services</h2>
+  <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+    <div style="width: 300px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+      <h3>Web Development</h3>
+      <p>Build fast, responsive, and user-friendly websites.</p>
+    </div>
+    <div style="width: 300px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+      <h3>Web Design</h3>
+      <p>Craft visually appealing and intuitive designs.</p>
+    </div>
+    <div style="width: 300px; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+      <h3>Consulting</h3>
+      <p>Get expert advice for your digital transformation.</p>
+    </div>
+  </div>
+</section>
