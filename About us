@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple webpage example">
+  <title>Bijay - My First Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0078d7;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Bijay's Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Bijay's Website! We are dedicated to delivering high-quality services in web development, design, and consulting.</p>
+    <p>At Bijay's Website, our mission is to provide innovative and user-friendly solutions that help individuals and businesses succeed in the digital world. We focus on creating engaging, accessible, and responsive websites tailored to meet your unique needs.</p>
+    <p>With a passion for technology and creativity, Bijay and the team are committed to staying ahead of industry trends and offering solutions that are both functional and visually appealing.</p>
+    <p>Explore our services and join us on a journey to digital excellence!</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p>We offer web development, design, and consulting services.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: bijay@technologist.com or ict@technologist.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Bijay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
